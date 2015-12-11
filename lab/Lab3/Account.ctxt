@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Account()
+comment0.text=\r\n\ Constructor\ \#1\ -\ account\ balance\ set\ to\ default\ (0.00)\r\n
+comment1.params=bal
+comment1.target=Account(double)
+comment1.text=\r\n\ Constructor\ \#2\ -\ set\ account\ balance\ to\ a\ specified\ amount\r\n\ @param\ bal\ starting\ balance\ for\ account\r\n
+comment2.params=cust\ bal
+comment2.target=Account(java.lang.String,\ double)
+comment2.text=\r\n\ Constructor\ \#3\ -\ set\ \ customer\ number\ and\ account\ balance\ to\ a\ specified\ amount\r\n\ @param\ cus\ customer\ number\ for\ account\r\n\ @param\ bal\ starting\ balance\ and\ highest\ balance\ for\ account\ \r\n
+comment3.params=amt
+comment3.target=void\ deposit(double)
+comment3.text=\r\n\ deposit\ an\ amount\ to\ account\r\n\ @param\ amt\ amount\ to\ be\ deposited\r\n\ update\ the\ highest\ balance\ if\ the\ current\ balce\ is\ greater\ than\ the\ highest\ balance\r\n\ @return\ \ void\r\n
+comment4.params=amt
+comment4.target=double\ withdraw(double)
+comment4.text=\r\n\ withdraw\ an\ amount\ from\ account\ if\ funds\ is\ available\r\n\ return\ amount\ withdrawn\r\n\ @param\ amount\ to\ be\ withdrawn\r\n
+comment5.params=
+comment5.target=double\ balance()
+comment5.text=\r\n\ check\ account\ balance\r\n\ @param\ none\r\n\ @return\ account\ balance\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=interest
+comment7.target=void\ accumulateInterest(double)
+comment7.text=\r\n\ calculate\ the\ interest\ rate\r\n\ @param\ interest\ used\ to\ determine\ the\ interest\ rate\ given\ to\ the\ account\ holder\r\n\ @return\ void\r\n
+numComments=8
